@@ -84,12 +84,12 @@ ggplot(bike_sharing_daily, aes(x = dteday, y = cnt)) +
   theme_minimal()
 
 ```
-### What Each Part Does:
+# What Each Part Does:
  
-# ymd(bike_sharing_daily$dteday) # Converts date column to Date class.
-# cnt #The total count of rentals (target variable).
-# geom_line()# Creates the time series line.
-# theme_minimal() # A clean, modern theme.
+- ymd(bike_sharing_daily$dteday) # Converts date column to Date class.
+- cnt #The total count of rentals (target variable).
+- geom_line()# Creates the time series line.
+- theme_minimal() # A clean, modern theme.
 
 # Task Three: Smooth time series data
 
